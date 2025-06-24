@@ -1,0 +1,122 @@
+<html>
+    <head>
+       <title>Sign Up</title>
+       <style>
+          body{
+            width: cover;
+            height: 200vh;
+            position: relative;
+            background-image: url(photo-1612703769284-0103b1e5ef70.avif);
+            background-repeat: no-repeat;
+            background-size: 100% 100vh;
+            animation-name: profile;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+            animation-play-state: running;   
+           }
+           @keyframes profile{
+               0%{background: url(photo-1612703769284-0103b1e5ef70.avif); background-repeat: no-repeatm; background-size: 100% 100vh;}
+               25%{background: url(photo-1674027392887-751d6396b710.avif); background-repeat: no-repeat; background-size: 100% 100vh;}
+           }
+           .main{
+            width: cover;
+            height: 200vh;
+            position: relative;
+            background-image: url(photo-1674027392887-751d6396b710.avif);
+            background-repeat: no-repeat;
+            background-size: 100% 80vh;
+            animation-name: main;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+            animation-play-state: running;   
+           }
+           @keyframes main{
+               0%{background: url(photo-1674027392887-751d6396b710.avif); background-repeat: no-repeatm; background-size: 100% 80vh;}
+               25%{background: url(photo-1612703769284-0103b1e5ef70.avif); background-repeat: no-repeat; background-size: 100% 80vh;}
+           }
+          *{
+               margin: 0%;
+           }
+           .main{
+               position: relative;
+               width: 500px;
+               height: 550px;
+               border: 1px solid transparent;
+               align-items: center;
+               align-content: center;
+               text-align: center;
+               border-radius: 60px;
+               top: 5%;
+               left: 30%;
+           }
+           .main input{
+               width: 200px;
+               height: 30px;
+               border-radius: 30px;
+               text-align: center;
+               background-color: black;
+               color: white;
+           }
+           .main ::placeholder{
+               text-align: center;
+               font-size: 18px;
+           }
+           .main ::placeholder:hover{
+               background-color: white ;
+               color: black;
+           }
+           button{
+               width: 100px;
+               height: 41px;
+               border-radius: 30px;
+               background-color: blue;
+               color: white;
+               font-size: 18px;
+           }
+           button:hover{
+               background-color: black;
+           }
+           .main img{
+            position: relative;
+            top: -9%;
+            left: 23%;
+            border-radius: 30px;
+           }
+           .main label{
+            position: relative;
+            color: white;
+            background-color: black;
+            border-radius: 30px;
+            top: -4%;
+            left: -7%;
+           }
+           .main input{
+            position: relative;
+            top: -3%;
+            left: 15;
+           }
+       </style>
+    </head>
+    <body>
+       <div class="main">
+        <img src="download.jpg" alt="size" width="100px" height="100px">
+        <label for="">CHANGE PROFILE PHOTO : </label>
+        <input type="file" accept="">
+        <p style="color: white;">NAME : MR.TOM</p><br>
+        <p style="color: white;">ADDRESS : #########</p><br>
+        <p style="color: white;">EMAIL : cartoonnetwork123@gmail.com</p><br>
+        <h4 style="color: white; background-color: black; border-radius: 30px; width: 200px; position: relative;left: 150px;">PAYMENT DETAILS</h4><br>
+        <p style="color: white;">CREDIT CARD NUMBER : 4563-4678-4309-4123</p><br>
+        <p style="color: white;">CREDIT CARD EXPIRY : 12/2029</p><br>
+        <p style="color: white;">CVV : 095</p><br>
+        <p style="color: white;">PICTURE : UPLOADED</p><br>
+        <a href="My store login.html"><button>BACK</button></a>
+       </div>
+    </body>
+    </html>
